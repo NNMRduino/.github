@@ -1,29 +1,13 @@
-# A modular, open-source platform for sub-MHz NMR
+# NNMRduino
 
 <img width="689" height="349" alt="Screenshot 2026-08-05 at 17 58 48" src="https://github.com/user-attachments/assets/22dfa7a8-51a1-434b-9a14-c0ab45bc0116" />
 
-### Introduction
-Many students, researchers and hobbyists will be familiar with the [Arduino](https://arduino.cc) open-source-electronics ecosystem, which provides an extraordinarily simple way to interface sensors (or other input devices) and actuators (output) with logic programs, e.g. C code, to create a wide variety of standalone control devices termed embedded systems.  A [Nuclear Magnetic Resonance](https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance) (**NMR**) spectrometer can be regarded as one specific type of embedded system: the output is a magnetic field produced by a coil, the input is a magnetic field (detected and recorded by a digitizer), and a pulse programmer keeps timing and data in order.
+A modular, open-source platform for sub-MHz NMR — an Arduino-based spectrometer for hyperpolarized NMR systems, NMR relaxation, high-resolution spectroscopy, and coherent control at low magnetic fields, as well as teaching basic principles of magnetic resonance to student beginners.
 
-The **NMRduino** is a magnetic resonance spectrometer based on (but we must stress, not endorsed or supported by) Arduino that we have developed over recent years to study hyperpolarized NMR systems, NMR relaxation, high-resolution spectroscopy, and coherent control at low magnetic fields, as well as teach basic principles of magnetic resonance to student beginners
+### Repositories
 
-Main features are:
-
--  Compact, plug-and-play hardware.  A credit-card-sized circuit board contains all electronic components and connects to any laptop, desktop or Raspberry Pi computer via USB.  Includes pulse programmer and analog sampling up to 100 kHz.
-
--  Transparent, intuitive control interface.  User-specific pulse sequences (1 μs time resolution) can be written to control both DC and AC magnetic fields up to several hundred kHz.  Open access to low-level programming interface for advanced users.
-
--  Flexibility.  Can be connected to conventional rf-inductive pickup coils, or alternative sensors such as atomic magnetometers.
-
-### Software
-
-To get running, you'll need a copy of NMRduino's firmware: [Latest version here](https://github.com/NMRduino/NMRduino/blob/main/Software/MCU/index.md)
-
-plus the user interface. Select the version for your operating system: [Raspberry Pi](https://github.com/NMRduino/), [Windows xx](https://github.com/NMRduino/)
-
-### Hardware
-
-[Bill of Materials for NMRduino](https://github.com/NNMRduino/NMRduino/blob/main/Hardware/Bill%20of%20materials.xlsx)
+- **[NMRduino](https://github.com/NNMRduino/NMRduino)** — hardware (PCB, 3D-printable case) and firmware. Start here for the full introduction, getting-started guide, and license details.
+- **[NMRduino-GUI](https://github.com/NNMRduino/NMRduino-GUI)** — desktop control and acquisition software.
 
 ### External resources
 [NMRduino at Open Source Imaging](https://www.opensourceimaging.org/project/nmrduino/), a directory of FOSS/OSHW magnetic resonance projects </br>
