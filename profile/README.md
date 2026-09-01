@@ -1,4 +1,4 @@
-# NNMRduino
+# NMRduino
 
 <img width="689" height="349" alt="Screenshot 2026-08-05 at 17 58 48" src="https://github.com/user-attachments/assets/22dfa7a8-51a1-434b-9a14-c0ab45bc0116" />
 
